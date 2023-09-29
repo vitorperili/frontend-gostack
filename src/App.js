@@ -24,7 +24,7 @@ function App() {
       owner: 'Vitor Eduardo Perili'
     });
 
-    const project = response.data;
+    const project = response.data[0];
 
     setProjects([...projects, project]);
   }
